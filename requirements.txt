@@ -1,0 +1,41 @@
+# Core dependencies
+# pycryptodome
+hsfs[python]
+hopsworks==4.2.0
+pandas
+numpy
+requests
+python-dotenv
+scikit-learn
+matplotlib
+datetime
+
+# Hopsworks dependencies
+avro
+boto3
+fsspec
+furl
+grpcio
+hopsworks_aiomysql
+mock
+opensearch-py
+packaging
+protobuf
+pyhumps
+pyjks
+PyMySQL
+retrying
+sqlalchemy
+tqdm
+tzlocal
+events
+aiomysql
+pydantic<2.0
+great_expectations==0.16.16
+ruamel.yaml
+mistune
+pyspark
+# google-cloud-storagegoogle-cloud-secret-manager
+# azure-storage-blobazure-identityazure-keyvault-secrets
+ipywidgets
+makefun
