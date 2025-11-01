@@ -35,10 +35,7 @@ great_expectations==0.16.16
 ruamel.yaml
 mistune
 pyspark
-google-cloud-storage 
-google-cloud-secret-manager
-azure-storage-blob
-azure-identity
-azure-keyvault-secrets
+google-cloud-storage google-cloud-secret-manager
+azure-storage-blob azure-identity azure-keyvault-secrets
 ipywidgets
 makefun
