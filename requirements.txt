@@ -2,8 +2,8 @@
 # pycryptodome
 hsfs[python]
 hopsworks==4.2.0
-pandas
-numpy
+pandas==2.1.4
+numpy==1.26.4
 requests
 python-dotenv
 scikit-learn
