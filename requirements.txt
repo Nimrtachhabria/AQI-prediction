@@ -42,3 +42,4 @@ azure-identity
 azure-keyvault-secrets
 ipywidgets
 makefun
+pyarrow
