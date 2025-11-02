@@ -4,7 +4,7 @@ import requests
 import datetime
 from dotenv import load_dotenv
 import os
-
+import numpy as np 
 # --- Load environment variables ---
 load_dotenv()
 api_key = os.getenv("HOPSWORKS_API_KEY")
@@ -42,9 +42,9 @@ df["city"] = "karachi"
 print(df.head())
 
 # --- Add time-based features ---
-df["hour"] = df["time"].dt.hour.astype(int)
-df["day"] = df["time"].dt.day.astype(int)
-df["month"] = df["time"].dt.month.astype(int)
+df["hour"] = df["time"].dt.hour.astype(np.int32)
+df["day"] = df["time"].dt.day.astype(np.int32)
+df["month"] = df["time"].dt.month.astype(np.int32)
 
 # --- Handle missing data ---
 
