@@ -43,3 +43,4 @@ azure-keyvault-secrets
 ipywidgets
 makefun
 pyarrow
+confluent-kafka
