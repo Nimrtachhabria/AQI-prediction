@@ -16,3 +16,33 @@ CI/CD Workflow – Managed with GitHub Actions to automatically trigger:
 Hourly feature updates
 
 Daily model retraining
+
+🧠 Tech Stack
+
+Python, Pandas, Scikit-learn, Joblib
+
+Hopsworks Feature Store (for data management)
+
+Streamlit (for dashboard visualization)
+
+GitHub Actions (for CI/CD automation)
+
+Open-Meteo API (for weather and pollution data)
+
+📊 Model Performance
+
+RMSE: 3.83
+
+MAE: 2.20
+
+R²: 0.94
+
+⚡ Highlights
+
+100% serverless pipeline
+
+Real-time data ingestion and prediction
+
+Automated retraining and monitoring
+
+Transparent model results and AQI category alerts
