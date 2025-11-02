@@ -42,9 +42,9 @@ df["city"] = "karachi"
 print(df.head())
 
 # --- Add time-based features ---
-df["hour"] = df["time"].dt.hour
-df["day"] = df["time"].dt.day
-df["month"] = df["time"].dt.month
+df["hour"] = df["time"].dt.hour.astype(int)
+df["day"] = df["time"].dt.day.astype(int)
+df["month"] = df["time"].dt.month.astype(int)
 
 # --- Handle missing data ---
 
