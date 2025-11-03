@@ -4,8 +4,7 @@ on:
   schedule:
     # Run feature pipeline every hour
     - cron: "0 * * * *"
-    # Run training pipeline once per day at 12 AM UTC
-    - cron: "0 0 * * *"
+    
   workflow_dispatch:  # allows manual run
 
 jobs:
