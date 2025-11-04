@@ -29,13 +29,6 @@ GitHub Actions (for CI/CD automation)
 
 Open-Meteo API (for weather and pollution data)
 
-📊 Model Performance
-
-RMSE: 3.83
-
-MAE: 2.20
-
-R²: 0.94
 
 ⚡ Highlights
 
