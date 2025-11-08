@@ -2,8 +2,8 @@
 # pycryptodome
 hsfs[python]
 hopsworks==4.2.0
-pandas
-numpy
+pandas==1.5.3
+numpy==1.26.4
 requests
 python-dotenv
 scikit-learn
@@ -35,7 +35,12 @@ great_expectations==0.16.16
 ruamel.yaml
 mistune
 pyspark
-# google-cloud-storagegoogle-cloud-secret-manager
-# azure-storage-blobazure-identityazure-keyvault-secrets
+google-cloud-storage 
+google-cloud-secret-manager
+azure-storage-blob 
+azure-identity 
+azure-keyvault-secrets
 ipywidgets
 makefun
+pyarrow
+confluent-kafka
